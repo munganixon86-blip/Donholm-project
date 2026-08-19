@@ -760,3 +760,15 @@ h3 {
         font-size: 12px;
     }
 }
+@media screen and (max-width: 1100px) {
+    .upcoming-events {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    #copy {
+        margin-right: 0;
+        width: 100%;
+        text-align: center;
+    }
+}
