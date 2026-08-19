@@ -1,0 +1,100 @@
+
+            .navbar{
+                            display: flex;
+                            justify-content: space-between;
+                            align-items: center;
+                            color: white;
+                           background-color: black;
+                            padding: 15px 40px ;
+                           top: 0;
+                           z-index: 1000;
+                          position: sticky; 
+            }
+              .logo{
+                                font-size: 30px;
+                                font-weight: bold;
+                                color: rgb(241, 166, 166);
+              }
+              .nav-links ul{
+                                display: flex;
+                                list-style: none;
+                                gap: 20px;
+                                
+              }
+              .nav-links a{
+                                text-decoration: none;
+                                color: white;
+                                font-size: 20px;
+                                font-weight: bold;
+              }   
+              .nav-links a:hover{
+                color: red;
+              }
+              .registration{
+                margin: 40px 150px 40px 150px;
+                border: solid rgb(243, 241, 241) 2px;
+                box-sizing: border-box;
+              padding: 30px 230px 30px 230px;
+              border-radius: 12px;
+              } 
+              .register{
+                padding: 3px 3px 3px 3px;
+                margin: 2px 50px 2px 50px;
+                display: flex;
+                flex-direction: column;
+              }
+              .register label{
+                color: white;
+              }
+              .registration label{
+                color: white;
+              }
+             .register input{
+                padding: 10px 10px 10px 10px;
+                margin-bottom: 20px;
+                font-size: 20px;
+              }
+              
+              .btn button{
+              padding: 10px 250px 10px 250px;
+              background-color: rgb(35, 35, 85);
+              color: white;
+              border: none;
+              cursor: pointer;
+              
+                }
+              
+              button li {
+                list-style: none;
+                text-decoration: none;
+              }
+              button li a{
+                text-decoration: none;
+                color: white;
+              }
+              h1{
+                            color: white;
+              }
+               hr{
+                            background-color: red;
+              }
+              label{
+                color: rgb(35, 35, 85);
+                font-size: 20px;
+              }
+              h3{
+              color: white;
+                font-size: 20px;
+              }
+              option{
+                font-size: 20px;
+              }
+              
+              .web input{
+                            padding: 0px 400px 60px 0px;
+                            background-color: black;
+                            color: white;
+              }
+              body{
+                background-color: rgb(48, 2, 2);
+              }
