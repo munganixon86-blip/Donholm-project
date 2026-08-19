@@ -498,6 +498,12 @@ img {
     padding: 3px;
 }
 
+.welcome3 {
+    text-align: center;
+    width: 100%;
+    margin: 10px 0;
+}
+
 .red {
     background-color: darkorchid;
     color: #fff;
