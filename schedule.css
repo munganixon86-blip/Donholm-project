@@ -181,3 +181,201 @@ padding: 3px 3px 3px 3px;
 .card-btn:hover{
 background-color: blueviolet;
 }
+/* =========================================
+   RESPONSIVE DESIGN FOR SCHEDULE PAGE
+   Add this at the bottom of schedule.css
+========================================= */
+
+/* Prevent horizontal scrolling */
+html,
+body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+/* Make images responsive */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+/* =========================
+   TABLETS
+========================= */
+@media screen and (max-width: 1024px) {
+
+    .main-part {
+        margin-left: 20px;
+        margin-right: 20px;
+        padding: 20px;
+    }
+
+    .tables {
+        max-width: 100%;
+        overflow-x: auto;
+    }
+}
+
+
+/* =========================
+   MOBILE PHONES
+========================= */
+@media screen and (max-width: 768px) {
+
+    .navbar {
+        flex-wrap: wrap;
+        justify-content: center;
+
+        padding: 15px 20px;
+        gap: 15px;
+    }
+
+    .nav-links ul {
+        flex-wrap: wrap;
+        justify-content: center;
+
+        gap: 12px;
+    }
+
+    .nav-links a {
+        font-size: 16px;
+    }
+
+    .header {
+        text-align: center;
+        font-size: 26px;
+
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    .main-part {
+        width: auto;
+
+        margin-left: 10px;
+        margin-right: 10px;
+
+        padding: 10px;
+    }
+
+    /* Allow wide schedule tables to scroll
+       instead of breaking the page */
+    .tables {
+        width: 100%;
+        max-width: 100%;
+        overflow-x: auto;
+
+        padding: 10px;
+    }
+
+    table {
+        min-width: 600px;
+    }
+
+    .footer {
+        flex-wrap: wrap;
+        justify-content: center;
+
+        padding: 35px 20px;
+        gap: 30px;
+    }
+
+    #copy {
+        margin-right: 0;
+        margin-top: 30px;
+    }
+}
+
+
+/* =========================
+   SMALL PHONES
+========================= */
+@media screen and (max-width: 480px) {
+
+    .navbar {
+        padding: 12px 10px;
+    }
+
+    .logo {
+        margin-left: 0;
+    }
+
+    .nav-links ul {
+        gap: 8px;
+    }
+
+    .nav-links a {
+        font-size: 14px;
+    }
+
+    .header {
+        font-size: 22px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .main-part {
+        margin-left: 5px;
+        margin-right: 5px;
+        padding: 5px;
+    }
+
+    .tables {
+        padding: 5px;
+    }
+
+    .footer {
+        padding: 25px 15px;
+        gap: 25px;
+    }
+}
+
+
+/* =========================
+   VERY SMALL SCREENS
+   SMARTWATCHES
+========================= */
+@media screen and (max-width: 350px) {
+
+    .navbar {
+        padding: 8px;
+    }
+
+    .logo {
+        font-size: 18px;
+    }
+
+    .nav-links ul {
+        gap: 5px;
+    }
+
+    .nav-links a {
+        font-size: 11px;
+    }
+
+    .header {
+        font-size: 18px;
+        margin: 10px 5px;
+        text-align: center;
+    }
+
+    .main-part {
+        margin: 0;
+        padding: 5px;
+    }
+
+    .tables {
+        padding: 3px;
+    }
+
+    /* Keep the table scrollable */
+    table {
+        min-width: 500px;
+    }
+
+    .footer {
+        padding: 20px 10px;
+        gap: 20px;
+    }
+}

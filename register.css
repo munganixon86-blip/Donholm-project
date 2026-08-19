@@ -98,3 +98,185 @@
               body{
                 background-color: rgb(48, 2, 2);
               }
+/* =========================================
+   RESPONSIVE DESIGN FOR REGISTRATION PAGE
+   Add this at the bottom of register.css
+========================================= */
+
+/* Prevent horizontal scrolling */
+html,
+body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+/* Make images responsive */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+/* =========================
+   TABLETS
+========================= */
+@media screen and (max-width: 1024px) {
+
+    .registration {
+        max-width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 80px;
+        padding-right: 80px;
+    }
+
+    .register {
+        width: 100%;
+    }
+
+    .btn button {
+        max-width: 100%;
+    }
+}
+
+
+/* =========================
+   MOBILE PHONES
+========================= */
+@media screen and (max-width: 768px) {
+
+    .navbar {
+        flex-wrap: wrap;
+        justify-content: center;
+
+        padding: 15px 20px;
+        gap: 15px;
+    }
+
+    .nav-links ul {
+        flex-wrap: wrap;
+        justify-content: center;
+
+        gap: 12px;
+    }
+
+    .nav-links a {
+        font-size: 16px;
+    }
+
+    .registration {
+        width: calc(100% - 30px);
+        max-width: 600px;
+
+        margin: 30px auto;
+
+        padding: 30px;
+    }
+
+    .register {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .register input,
+    .register select,
+    .register textarea {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .btn,
+    .btn button {
+        width: 100%;
+    }
+
+    .btn button {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+
+/* =========================
+   SMALL PHONES
+========================= */
+@media screen and (max-width: 480px) {
+
+    .navbar {
+        padding: 12px 10px;
+    }
+
+    .logo {
+        margin-left: 0;
+        font-size: 24px;
+    }
+
+    .nav-links ul {
+        gap: 8px;
+    }
+
+    .nav-links a {
+        font-size: 14px;
+    }
+
+    .registration {
+        width: calc(100% - 20px);
+        margin: 20px auto;
+        padding: 20px 15px;
+    }
+
+    .register input,
+    .register select,
+    .register textarea {
+        font-size: 16px;
+    }
+
+    .btn button {
+        width: 100%;
+        padding: 12px 15px;
+    }
+}
+
+
+/* =========================
+   VERY SMALL SCREENS
+   SMARTWATCHES
+========================= */
+@media screen and (max-width: 350px) {
+
+    .navbar {
+        padding: 8px;
+    }
+
+    .logo {
+        font-size: 18px;
+    }
+
+    .nav-links ul {
+        gap: 5px;
+    }
+
+    .nav-links a {
+        font-size: 11px;
+    }
+
+    .registration {
+        width: calc(100% - 10px);
+        margin: 10px auto;
+        padding: 10px;
+    }
+
+    .register input,
+    .register select,
+    .register textarea {
+        width: 100%;
+        font-size: 13px;
+    }
+
+    .btn button {
+        width: 100%;
+        padding: 10px;
+        font-size: 13px;
+    }
+}
