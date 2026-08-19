@@ -772,3 +772,56 @@ h3 {
         text-align: center;
     }
 }
+/* =========================================
+   FINAL HORIZONTAL OVERFLOW FIX
+========================================= */
+
+html,
+body {
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+@media screen and (max-width: 768px) {
+
+    .upcoming-events,
+    .navbar,
+    .footer {
+        max-width: 100%;
+    }
+
+    .card,
+    .card2,
+    .card3 {
+        max-width: 100%;
+    }
+}
+/* =========================================
+   FINAL MOBILE TEXT OVERFLOW FIX
+========================================= */
+
+@media screen and (max-width: 768px) {
+
+    .welcome1,
+    .welcome2,
+    .welcome4 {
+        width: 100%;
+        max-width: 100%;
+        text-align: center;
+        overflow-wrap: break-word;
+        word-wrap: break-word;
+    }
+
+    .welcome2 {
+        font-size: clamp(24px, 8vw, 40px);
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .welcome4 {
+        font-size: clamp(20px, 7vw, 32px);
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
