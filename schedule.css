@@ -269,6 +269,15 @@ body {
         padding: 25px 15px;
         gap: 25px;
     }
+     /* Allow wide schedule tables to scroll
+       instead of breaking the page */
+    .tables {
+        width: 100%;
+        max-width: 100%;
+        overflow-x: auto;
+
+        padding: 10px;
+    } 
 }
 
 
