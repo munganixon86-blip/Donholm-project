@@ -415,6 +415,13 @@ img {
         height: auto;
         min-height: 150px;
     }
-
+    /* fix h3 to fit in small screens */
+      h3 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        padding: 0 10px;
+    }
    
 }
