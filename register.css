@@ -182,7 +182,7 @@ img {
     .register input,
     .register select,
     .register textarea {
-        width: 100%;
+        width: 80%;
         max-width: 100%;
     }
 
@@ -239,10 +239,10 @@ img {
 }
 
 
-/* =========================
-   VERY SMALL SCREENS
-   SMARTWATCHES
-========================= */
+ 
+ /*  VERY SMALL SCREENS
+   SMARTWATCHES */
+
 @media screen and (max-width: 350px) {
 
     .navbar {
