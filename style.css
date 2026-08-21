@@ -623,7 +623,7 @@ h3 {
     background-color: black;
 }
 
-/* Fixed: prevents the 10000px horizontal overflow */
+
 #copy {
     color: rgb(2, 71, 71);
     margin-top: 200px;
@@ -634,10 +634,7 @@ h3 {
     color: white;
     opacity: 0.9;
 }
-/* =========================================
-   RESPONSIVE FIXES - KEEP ORIGINAL LOOK
-   Add at the very bottom of style.css
-========================================= */
+
 
 /* TABLETS */
 @media screen and (max-width: 1024px) {
@@ -699,7 +696,7 @@ h3 {
         gap: 18px;
     }
 
-    /* Cards stay their original shape and size */
+    
     .card,
     .card2,
     .card3 {
@@ -778,9 +775,7 @@ h3 {
         text-align: center;
     }
 }
-/* =========================================
-   FINAL HORIZONTAL OVERFLOW FIX
-========================================= */
+
 
 html,
 body {
@@ -803,9 +798,7 @@ body {
         max-width: 100%;
     }
 }
-/* =========================================
-   FINAL MOBILE TEXT OVERFLOW FIX
-========================================= */
+
 
 @media screen and (max-width: 768px) {
 
@@ -831,7 +824,7 @@ body {
         padding-right: 10px;
     }
 }
-/* WELCOME TEXT RESPONSIVE LAYOUT */
+
 
 .welcome1 {
     text-align: center;
