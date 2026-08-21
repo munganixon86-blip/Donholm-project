@@ -286,10 +286,7 @@ padding: 3px 3px 3px 3px;
   border: solid rgb(221, 217, 217) 1.5px;   
   border-radius: 12px;
 }
-/* =========================================
-   RESPONSIVE DESIGN FOR EVENTS PAGE
-   Add this at the bottom of events.css
-========================================= */
+
 
 /* Prevent horizontal scrolling and make images flexible */
 html,
@@ -304,9 +301,9 @@ img {
 }
 
 
-/* =========================
-   TABLETS
-========================= */
+  
+/*  TABLETS  */
+
 @media screen and (max-width: 1024px) {
 
     .upcoming-events,
@@ -330,9 +327,9 @@ img {
 }
 
 
-/* =========================
-   MOBILE PHONES
-========================= */
+
+ /* MOBILE PHONES */
+ 
 @media screen and (max-width: 768px) {
 
     .navbar {
@@ -383,9 +380,9 @@ img {
 }
 
 
-/* =========================
-   SMALL PHONES
-========================= */
+ 
+ /* SMALL PHONES */
+ 
 @media screen and (max-width: 480px) {
 
     .navbar {
@@ -425,10 +422,9 @@ img {
 }
 
 
-/* =========================
-   VERY SMALL SCREENS
-   SMARTWATCHES
-========================= */
+ 
+ /*  SMARTWATCHES */
+ 
 @media screen and (max-width: 350px) {
 
     .navbar {
@@ -468,8 +464,5 @@ img {
         min-height: 150px;
     }
 
-    .footer {
-        padding: 20px 10px;
-        gap: 20px;
-    }
+   
 }
