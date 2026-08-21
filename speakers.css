@@ -261,8 +261,8 @@ img {
 
 @media screen and (max-width: 1024px) {
 
-    .upcoming-events,
-    .upcoming-events2 {
+    .all-speakers
+     {
         flex-wrap: wrap;
         justify-content: center;
 
@@ -273,9 +273,12 @@ img {
         padding-right: 20px;
     }
 
-    .card,
+    .card1,
     .card2,
-    .card3 {
+    .card3,
+    .card4,
+    .card5 
+    {
         width: calc(50% - 20px);
         max-width: 360px;
     }
@@ -302,8 +305,8 @@ img {
         gap: 12px;
     }
 
-    .upcoming-events,
-    .upcoming-events2 {
+    
+    .all-speakers {
         flex-wrap: wrap;
         justify-content: center;
 
@@ -313,25 +316,17 @@ img {
         padding: 15px;
     }
 
-    .card,
+    .card1,
     .card2,
-    .card3 {
+    .card3,
+    .card4,
+    .card5 
+    {
         width: 100%;
         max-width: 360px;
     }
 
-    .footer {
-        flex-wrap: wrap;
-        justify-content: center;
-
-        padding: 35px 20px;
-        gap: 30px;
-    }
-
-    #copy {
-        margin-right: 0;
-        margin-top: 30px;
-    }
+   
 }
 
 
@@ -356,24 +351,23 @@ img {
         font-size: 16px;
     }
 
-    .upcoming-events,
-    .upcoming-events2 {
+    
+    .all-speakers {
         margin-left: 10px;
         margin-right: 10px;
 
         padding: 10px;
     }
 
-    .card,
+    .card1,
     .card2,
-    .card3 {
+    .card3,
+    .card4,
+    .card5 
+    {
         width: 100%;
     }
 
-    .footer {
-        padding: 25px 15px;
-        gap: 25px;
-    }
 }
 
 
@@ -398,21 +392,24 @@ img {
         font-size: 11px;
     }
 
-    .upcoming-events,
-    .upcoming-events2 {
+    
+    .all-speakers{
         margin-left: 5px;
         margin-right: 5px;
 
         padding: 5px;
     }
 
-    .card,
+    .card1,
     .card2,
-    .card3 {
+    .card3,
+    .card4,
+    .card5
+     {
         width: 100%;
     }
 
-    .card-image,
+    .card1-image,
     .card2-image,
     .card3-image {
         height: auto;
