@@ -138,9 +138,9 @@ body {
     overflow-x: hidden;
 }
 
-/* ==============================
-   MOBILE - NO LEFT/RIGHT SCROLL
-   ============================== */
+/* 
+   MOBILE  NO LEFT/RIGHT SCROLL */
+   
 
 @media screen and (max-width: 768px) {
 
@@ -213,9 +213,9 @@ body {
 }
 
 
-/* ==============================
-   SMALL PHONES
-   ============================== */
+/* 
+   SMALL PHONES */
+  
 
 @media screen and (max-width: 480px) {
 
