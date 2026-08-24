@@ -201,36 +201,27 @@ body {
 
     /* Allow wide schedule tables to scroll
        instead of breaking the page */
-    /* .tables {
+     .tables {
         width: 100%;
         max-width: 100%;
-        overflow-x: auto;
+        overflow-x: none;
 
         padding: 10px;
-    } */
+    } 
 
     table {
         min-width: 600px;
     }
 
-    .footer {
-        flex-wrap: wrap;
-        justify-content: center;
+  
 
-        padding: 35px 20px;
-        gap: 30px;
-    }
-
-    #copy {
-        margin-right: 0;
-        margin-top: 30px;
-    }
+   
 }
 
 
-/* =========================
-   SMALL PHONES
-========================= */
+
+  /*  SMALL PHONES */
+
 @media screen and (max-width: 480px) {
 
     .navbar {
@@ -281,10 +272,11 @@ body {
 }
 
 
-/* =========================
-   VERY SMALL SCREENS
-   SMARTWATCHES
-========================= */
+
+ /* SMALL SCREENS 
+ SMARTWATCHES */
+   
+ 
 @media screen and (max-width: 350px) {
 
     .navbar {
